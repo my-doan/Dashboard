@@ -48,3 +48,5 @@ def label_point(x, y, val, ax):
 label_point(countries[user_column], countries['Score'], countries['Country or region'], plt.gca())
 
 st.pyplot(plt.gcf())
+
+st.write("If you would like to look at this project's repository, click [here](https://github.com/my-doan/happiness).")
